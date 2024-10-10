@@ -1,31 +1,30 @@
 {
-  "expo": {
-    "name": "xxxx",
-    "slug": "xxxx",
-    "scheme": "xxxx",
-    "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "plugins": [],
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+    "expo": {
+      "name": "prj-bikes-1",
+      "slug": "prj-bikes-1",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/icon.png",
+      "userInterfaceStyle": "light",
+      "plugins": [["@react-native-google-signin/google-signin"]],
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
         "backgroundColor": "#ffffff"
-      }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {}
+      },
+      "assetBundlePatterns": ["**/*"],
+      "ios": {
+        "supportsTablet": true
+      },
+      "android": {
+        "adaptiveIcon": {
+          "foregroundImage": "./assets/adaptive-icon.png",
+          "backgroundColor": "#ffffff"
+        }
+      },
+      "web": {
+        "favicon": "./assets/favicon.png"
+      },
+      "extra": {}
+    }
   }
-}
