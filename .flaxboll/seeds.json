@@ -1,0 +1,470 @@
+{
+  "sss_dirSystem": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": { "pt-br": "dirSystem", "en": "dirSystem" },
+        "capsDescription": { "pt-br": "", "en": "" },
+        "capsCodeTypes": ["flaxSystem", "dirSystem"],
+        "capsCodeText": "// \"!#!name!#!\", [!#!files!#!]",
+        "capsCodeInputs": {
+          "sss_dirSystem-0": {
+            "capsIptCodeID": "sss_dirSystem-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "root/",
+              "capsIptTxtLabel": { "pt-br": "name", "en": "name" },
+              "capsIptTxtDescription": { "pt-br": "", "en": "" }
+            }
+          },
+          "sss_dirSystem-1": {
+            "capsIptCodeID": "sss_dirSystem-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Diretórios e Arquivos",
+                "en": "Directories and Files"
+              },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsDfCode": "",
+              "capsIptCapsTypesToAdd": ["flaxSystem"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "sss_dirSystem",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsUserID": "xxx1"
+    }
+  },
+
+  "sss_fileSystem": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": { "pt-br": "fileSystem", "en": "fileSystem" },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["flaxSystem", "fileSystem"],
+        "capsCodeText": "\n!#!code!#!\n",
+        "capsCodeInputs": {
+          "sss_fileSystem-0": {
+            "capsIptCodeID": "sss_fileSystem-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "noPath",
+              "capsIptTxtLabel": { "pt-br": "path", "en": "path" },
+              "capsIptTxtDescription": { "pt-br": "", "en": "" }
+            }
+          },
+          "sss_fileSystem-1": {
+            "capsIptCodeID": "sss_fileSystem-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": { "pt-br": "code text", "en": "code text" },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsSeparator": "\n",
+              "capsIptCapsDfCode": "// no code to inject",
+              "capsIptCapsTypesToAdd": ["free value", "project"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "sss_fileSystem",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsUserID": "xxx1"
+    }
+  },
+
+  "sss_project": {
+    "capsCodeInfo": {
+      "1": {
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": {
+          "seconds": 1669821908,
+          "nanoseconds": 764000000
+        },
+        "capsLabel": { "pt-br": "Projeto", "en": "Project" },
+        "capsDescription": {
+          "pt-br": "Cápsula contendo o código para iniciar um projeto.",
+          "en": "Capsule containing the code to start a project."
+        },
+        "capsCodeTypes": ["project"],
+        "capsCodeText": "\n // ---------- import React Packs\n import React from 'react';\n import * as RN from 'react-native';\n \n // ---------- import Variables Pack\n import { create } from 'zustand';\n \n // ---------- import Local Tools\n // import {mapElements} from './tools/base/project/mapElements';\n import { Project, Screen } from './tools/base/project';\n // import * as functions from './tools/base/functions';\n import * as Elements from './tools/base/Elements';\n // import * as jsvals from './tools/base/jsvals';\n // import { props } from './tools/base/props';\n // import * as customs from './tools/customs';\n // import * as stls from './tools/base/stls';\n // import { tools } from \"./tools\";\n \n // ---------- set Caps Inputs\n const currRoute = '!#!initial screen!#!'\n \n let args:any = []\n \n const screens = [\n !#!Lista de Telas!#!\n ]\n \n const initCt = () => ({\n !#!Lista de Variáveis!#!\n });\n const initObj = initCt();\n \n const arrInitFuncs = [\n !#!Start Functions!#!\n ];\n \n export const useRoutes = create(() => ({ currRoute }));\n export const useData = create(() => initObj);\n \n // ---------- set Main Component\n export const Router = () => {\n return (\n <Project\n configData={{\n screens,\n initCt,\n arrInitFuncs,\n }}\n />\n );\n };",
+        "capsCodeInputs": {
+          "sss_project-0": {
+            "capsIptCodeID": "sss_project-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDfValue": "home",
+              "capsIptTxtLabel": {
+                "pt-br": "Tela Inicial",
+                "en": "Initial Screen"
+              },
+              "capsIptTxtDescription": {
+                "pt-br": "Adicione o Caminho de URL da tela que vai iniciar o seu projeto.",
+                "en": "Add the URL Path of the screen that will start your project."
+              }
+            }
+          },
+          "sss_project-1": {
+            "capsIptCodeID": "sss_project-1",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Lista de Telas",
+                "en": "Screens List"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Adicione Telas para o projeto.",
+                "en": "Add Screens to the project."
+              },
+              "capsIptCapsDfCode": "(...args: any) => <RN.View style={{width: '100%',height: '100%',justifyContent: 'center', alignItems: 'center',backgroundColor: '#202'}}><RN.Text style={{color: 'white'}}>Add a Screen to Start</RN.Text></RN.View>",
+              "capsIptCapsTypesToAdd": ["Tela"]
+            }
+          },
+          "sss_project-2": {
+            "capsIptCodeID": "sss_project-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Lista de Variáveis",
+                "en": "Variables List"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Adicione Variáveis para o projeto.",
+                "en": "Add Variables to the project."
+              },
+              "capsIptCapsDfCode": "true: \"true\"",
+              "capsIptCapsTypesToAdd": ["propValue"]
+            }
+          },
+          "sss_project-3": {
+            "capsIptCodeID": "sss_project-3",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Função de Início",
+                "en": "Start Function"
+              },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": { "seconds": 1669821908, "nanoseconds": 764000000 },
+      "capsID": "sss_project",
+      "capsUserID": "xxx1"
+    }
+  },
+
+  "sss_screen": {
+    "capsCodeInfo": {
+      "1": {
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+        "capsCodeVersionID": "1",
+        "capsLabel": { "pt-br": "tela", "en": "screen" },
+        "capsDescription": {
+          "pt-br": "Cria uma nova Tela",
+          "en": "Creates a new Screen"
+        },
+        "capsCodeTypes": ["Tela"],
+        "capsCodeText": "\n (...args: any) => <Screen pass={{\n pathScreen:\"!#!0!#!\",\n \n styles:[!#!1!#!],\n \n screenElements:[!#!2!#!],\n \n startFunctions:[!#!3!#!],\n \n args,\n }}/>",
+        "capsCodeInputs": {
+          "sss_screen-0": {
+            "capsIptCodeID": "sss_screen-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "text",
+            "capsIptTxtInfo": {
+              "capsIptTxtDescription": {
+                "pt-br": "Caminho pra vc definir a rota da sua tela",
+                "en": "Path to screen route"
+              },
+              "capsIptTxtDfValue": "home",
+              "capsIptTxtLabel": {
+                "pt-br": "Caminho da Tela",
+                "en": "Path Screen"
+              }
+            }
+          },
+          "sss_screen-1": {
+            "capsIptCodeID": "sss_screen-1",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsTypesToAdd": ["Estilo Caixa", "Estilo Layout"],
+              "capsIptCapsLabel": { "pt-br": "Estilos", "en": "Styles" },
+              "capsIptCapsDescription": {
+                "pt-br": "Adicione os itens que desejar para modificar o estilo dessa Tela.",
+                "en": "Add items to change screen style."
+              },
+              "capsIptCapsDfCode": "\n {\n backgroundColor: '#101',\n justifyContent: 'center',\n alignItems: 'center',\n height: '100%',\n width: '100%',\n }\n "
+            }
+          },
+          "sss_screen-2": {
+            "capsIptCodeID": "sss_screen-2",
+            "capsIptPosition": "3",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Elementos de Tela",
+                "en": "Screen Elements"
+              },
+              "capsIptCapsDescription": {
+                "pt-br": "Permite a inserção de elementos filhos",
+                "en": "Add children items"
+              },
+              "capsIptCapsDfCode": "() => {\n const textStyle = {\n fontSize: 20,\n color: '#fff2',\n textAlign:'center',\n maxWidth: 200,\n // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!\n };\n \n return (\n <RN.Text style={textStyle}>\n {'Adicione Elementos nessa tela!'}\n </RN.Text>);\n }",
+              "capsIptCapsTypesToAdd": ["Elemento de Tela"]
+            }
+          },
+          "sss_screen-3": {
+            "capsIptCodeID": "sss_screen-3",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Funções de Início",
+                "en": "Start Functions"
+              },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsDfCode": "()=>{}",
+              "capsIptCapsTypesToAdd": ["function"]
+            }
+          }
+        }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk",
+      "capsID": "sss_screen"
+    }
+  },
+
+  "sss_text": {
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": { "pt-br": "Texto", "en": "Text" },
+        "capsDescription": {
+          "pt-br": "Um componente React para exibir texto.",
+          "en": "A React component for displaying text."
+        },
+        "capsCodeTypes": ["Elemento de Tela", "Text Component"],
+        "capsCodeText": "(...args:any) => <Elements.Text pass={{\n arrProps: [\n !#!Elements Properties!#!\n ],\n \n arrStyles: [\n !#!Styles!#!\n ],\n \n children: [\n !#!Text Value!#!\n ],\n \n args,\n \n }}/>",
+        "capsCodeInputs": {
+          "sss_text-0": {
+            "capsIptCodeID": "sss_text-0",
+            "capsIptPosition": "0",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Propriedades de Elementos",
+                "en": "Elements Properties"
+              },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsDfCode": "{}",
+              "capsIptCapsTypesToAdd": ["Propriedade Texto"]
+            }
+          },
+          "sss_text-1": {
+            "capsIptCodeID": "sss_text-1",
+            "capsIptPosition": "1",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": { "pt-br": "Estilos", "en": "Styles" },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsDfCode": "{ color: 'white', fontSize: 14, }",
+              "capsIptCapsTypesToAdd": ["Estilo Texto"]
+            }
+          },
+          "sss_text-2": {
+            "capsIptCodeID": "sss_text-2",
+            "capsIptPosition": "2",
+            "capsIptRemoved": false,
+            "capsIptType": "capsules",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": {
+                "pt-br": "Valor de Texto",
+                "en": "Text Value"
+              },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+              "capsIptCapsDfCode": "\"Escreva...\"",
+              "capsIptCapsTypesToAdd": ["string process", "string values"]
+            }
+          }
+        },
+        "capsCodeVersionID": "1",
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    },
+    "capsType": "code",
+    "capsDB": {
+      "capsID": "sss_text",
+      "capsPrjID": "yyy1",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsUserID": "xxx1"
+    }
+  },
+
+  "sss_stringValue": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "sss_stringValue",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": {
+          "pt-br": "valor string",
+          "en": "string value"
+        },
+        "capsDescription": {
+          "pt-br": "",
+          "en": ""
+        },
+        "capsCodeTypes": ["string value", "jsValue", "string process"],
+        "capsCodeText": "\"!#!string value!#!\"",
+
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "sss_stringValue-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "sss_stringValue-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": {
+                "pt-br": "valor string",
+                "en": "string value"
+              },
+
+              "capsIptTxtDescription": {
+                "pt-br": "",
+                "en": ""
+              },
+              "capsIptTxtDfValue": ""
+            }
+          }
+        },
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    }
+  },
+
+  "sss_joinfreeValue": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "sss_joinfreeValue",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": { "pt-br": "junta valor livre", "en": "join free value" },
+
+        "capsDescription": { "pt-br": "", "en": "" },
+        "capsCodeTypes": ["jsValue", "free value", "join free value"],
+        "capsCodeText": "!#!free value!#!",
+
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "sss_joinfreeValue-0": {
+            "capsIptType": "capsules",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "sss_joinfreeValue-0",
+            "capsIptPosition": "0",
+            "capsIptCapsInfo": {
+              "capsIptCapsLabel": { "pt-br": "code text", "en": "code text" },
+              "capsIptCapsDescription": { "pt-br": "", "en": "" },
+
+              "capsIptCapsSeparator": "\n",
+
+              "capsIptCapsDfCode": "// no code to inject",
+              "capsIptCapsTypesToAdd": ["free value", "project"]
+            }
+          }
+        },
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    }
+  },
+
+  "sss_freeValue": {
+    "capsDB": {
+      "capsUserID": "usrn5e3jr2CvvnDpHigA",
+      "capsID": "sss_freeValue",
+      "capsCreatedAt": { "seconds": 1, "nanoseconds": 7 },
+      "capsPrjID": "ZOqi3kZm6c7XjObC79xk"
+    },
+    "capsType": "code",
+    "capsCodeInfo": {
+      "1": {
+        "capsLabel": { "pt-br": "valor livre", "en": "free value" },
+        "capsDescription": { "pt-br": "", "en": "" },
+        "capsCodeTypes": ["jsValue", "free value"],
+        "capsCodeText": "!#!free value!#!",
+        "capsCodeVersionID": "1",
+        "capsCodeInputs": {
+          "sss_freeValue-0": {
+            "capsIptType": "text",
+            "capsIptRemoved": false,
+            "capsIptCodeID": "sss_freeValue-0",
+            "capsIptPosition": "0",
+            "capsIptTxtInfo": {
+              "capsIptTxtLabel": { "pt-br": "valor livre", "en": "free value" },
+              "capsIptTxtDescription": { "pt-br": "", "en": "" },
+              "capsIptTxtDfValue": "undefined"
+            }
+          }
+        },
+        "capsVersionCreatedAt": { "seconds": 1, "nanoseconds": 7 }
+      }
+    }
+  }
+}

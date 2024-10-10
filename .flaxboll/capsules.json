@@ -1,0 +1,2719 @@
+{
+  "xxx_dir1": {
+    "capsType": "useCode",
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "",
+          "parentData": {
+            "parentConnID": "",
+            "capsParentID": ""
+          }
+        }
+      },
+      "capsUseConections": "1",
+      "capsUseLabel": {
+        "pt-br": "./",
+        "en": "./"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": ""
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": [
+            "8e786505-57ce-4cea-8a59-0e58d81a2d48",
+            "115a2fd3-6b57-4b05-ba03-8fec32f7f1dd",
+            "9372d15f-75d4-46ff-a582-dba9686021f8",
+            "xxx_file1_x",
+            "1faf8424-06b9-4e90-94f7-14c84fb99de4"
+          ]
+        }
+      },
+      "capsUseDescription": {
+        "en": "",
+        "pt-br": "xxx"
+      },
+      "capsUpdatedAt": [
+        {
+          "seconds": 1687739918,
+          "nanoseconds": 742000000
+        }
+      ],
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1"
+    },
+    "capsDB": {
+      "capsUserID": "",
+      "capsCreatedAt": {
+        "seconds": 1687739918,
+        "nanoseconds": 742000000
+      },
+      "capsID": "xxx_dir1",
+      "capsPrjID": "V726aYN7mxq4LsEUwAXL"
+    }
+  },
+  "xxx_file1_x": {
+    "capsType": "useCode",
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_dir1"
+          }
+        }
+      },
+      "capsUseConections": "1",
+      "capsUseLabel": {
+        "pt-br": "index.tsx",
+        "en": "index.tsx"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "index.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["xxx_freeValue1_x"]
+        }
+      },
+      "capsUseDescription": {
+        "en": "",
+        "pt-br": ""
+      },
+      "capsUpdatedAt": [
+        {
+          "seconds": 1687739918,
+          "nanoseconds": 742000000
+        }
+      ],
+      "capsCodeVersionID": "1",
+      "capsCodeID": "sss_fileSystem"
+    },
+    "capsDB": {
+      "capsUserID": "",
+      "capsCreatedAt": {
+        "seconds": 1687739918,
+        "nanoseconds": 742000000
+      },
+      "capsID": "xxx_file1_x",
+      "capsPrjID": "V726aYN7mxq4LsEUwAXL"
+    }
+  },
+  "xxx_freeValue1_x": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "xxx_freeValue1_x",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723475287081
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_file1_x"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723475287081],
+      "capsUseLabel": {
+        "pt-br": "code",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "xxx",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n\n// ---------- import Internals\nimport { Router } from './src';\n\nexport default function App() {\n  return <Router />;\n}\n\nRN.AppRegistry.registerComponent('App', () => App);\n\nRN.AppRegistry.runApplication('App', {\n  rootTag: document.getElementById('root'),\n});"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "9372d15f-75d4-46ff-a582-dba9686021f8": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "9372d15f-75d4-46ff-a582-dba9686021f8",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723574477324
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_dir1"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723574477324],
+      "capsUseLabel": {
+        "pt-br": "src",
+        "en": "src"
+      },
+      "capsUseDescription": {
+        "pt-br": "dir",
+        "en": "dir"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "src"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": [
+            "6da20a74-36e3-442d-8204-af9209cecbce",
+            "f7ca4b55-74c8-4158-b8b9-1dc7e6366430"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "f7ca4b55-74c8-4158-b8b9-1dc7e6366430": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "f7ca4b55-74c8-4158-b8b9-1dc7e6366430",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723574505725
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "9372d15f-75d4-46ff-a582-dba9686021f8"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723574505725],
+      "capsUseLabel": {
+        "pt-br": "index.tsx",
+        "en": "index.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "xxx",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/index.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": [
+            "7949b54a-c3c5-4746-966f-4c2e64727bca",
+            "05605d83-b56f-424e-b5db-2ade4c225aae"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "7949b54a-c3c5-4746-966f-4c2e64727bca": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "7949b54a-c3c5-4746-966f-4c2e64727bca",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723574525411
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "f7ca4b55-74c8-4158-b8b9-1dc7e6366430"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723574525411],
+      "capsUseLabel": {
+        "pt-br": "código",
+        "en": "Empty"
+      },
+      "capsUseDescription": {
+        "pt-br": "xxx",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "console.log(\"AQUI X\");"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "d20737ca-40a3-4021-b4d6-0f8d83744d3e": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "d20737ca-40a3-4021-b4d6-0f8d83744d3e",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723585611690
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_file1_x"
+          }
+        },
+        "conn_2": {
+          "connID": "conn_2",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_2",
+            "capsParentID": "8420b447-c4c5-4358-95f7-0039d8a4816f"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723585611690],
+      "capsUseLabel": {
+        "pt-br": "log",
+        "en": "Empty"
+      },
+      "capsUseDescription": {
+        "pt-br": "xxx",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "console.log(\"AQUI X1\");"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "115a2fd3-6b57-4b05-ba03-8fec32f7f1dd": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "115a2fd3-6b57-4b05-ba03-8fec32f7f1dd",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723587896294
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_dir1"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723587896294],
+      "capsUseLabel": {
+        "pt-br": ".flaxboll",
+        "en": ".flaxboll"
+      },
+      "capsUseDescription": {
+        "pt-br": "dir",
+        "en": "dir"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": ["28e5ff5d-4c28-4f89-b82c-ff2146188db0"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "28e5ff5d-4c28-4f89-b82c-ff2146188db0": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723587944396
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "115a2fd3-6b57-4b05-ba03-8fec32f7f1dd"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723587944396],
+      "capsUseLabel": {
+        "pt-br": "seeds.json",
+        "en": "seeds.json"
+      },
+      "capsUseDescription": {
+        "pt-br": "xxx",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./.flaxboll/seeds.json"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": [
+            "dcd9ed31-2fe1-4a7c-ba14-15135ef5959e",
+            "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9",
+            "f59a0bdf-667b-40b3-91e2-2ba01d44e2a6",
+            "53653d81-28b4-4e31-ad58-8d114825d1bc",
+            "49a65981-b902-4cdd-a8c1-b9914ad11c32",
+            "48c3cba5-3143-47e8-bc56-73ea7fad99a3",
+            "97536ff9-9ffe-45c3-901d-9ab9e2698c60",
+            "f8a3f656-79dd-4ed6-9430-b400d5a31364",
+            "f27782c2-5d95-482e-8183-7783c38c7f1d"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "dcd9ed31-2fe1-4a7c-ba14-15135ef5959e": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "dcd9ed31-2fe1-4a7c-ba14-15135ef5959e",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723588020252
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723588020252],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "{"
+      },
+      "capsUseDescription": {
+        "pt-br": "{",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "{"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "b04abd57-ebc1-404f-be58-280de1231524": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "b04abd57-ebc1-404f-be58-280de1231524",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723588859042
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        },
+        "conn_2": {
+          "connID": "conn_2",
+          "capsParentIptID": "sss_joinfreeValue-0",
+          "parentData": {
+            "parentConnID": "conn_2",
+            "capsParentID": "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723588859042],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "free value"
+      },
+      "capsUseDescription": {
+        "pt-br": "sss_dirSystem,",
+        "en": "sss_dirSystem,"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_dirSystem\": {\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsLabel\": { \"pt-br\": \"dirSystem\", \"en\": \"dirSystem\" },\n        \"capsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n        \"capsCodeTypes\": [\"flaxSystem\", \"dirSystem\"],\n        \"capsCodeText\": \"// \\\"!#!name!#!\\\", [!#!files!#!]\",\n        \"capsCodeInputs\": {\n          \"sss_dirSystem-0\": {\n            \"capsIptCodeID\": \"sss_dirSystem-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"text\",\n            \"capsIptTxtInfo\": {\n              \"capsIptTxtDfValue\": \"root/\",\n              \"capsIptTxtLabel\": { \"pt-br\": \"name\", \"en\": \"name\" },\n              \"capsIptTxtDescription\": { \"pt-br\": \"\", \"en\": \"\" }\n            }\n          },\n          \"sss_dirSystem-1\": {\n            \"capsIptCodeID\": \"sss_dirSystem-1\",\n            \"capsIptPosition\": \"1\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Diretórios e Arquivos\",\n                \"en\": \"Directories and Files\"\n              },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsDfCode\": \"\",\n              \"capsIptCapsTypesToAdd\": [\"flaxSystem\"]\n            }\n          }\n        },\n        \"capsCodeVersionID\": \"1\",\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 }\n      }\n    },\n    \"capsType\": \"code\",\n    \"capsDB\": {\n      \"capsID\": \"sss_dirSystem\",\n      \"capsPrjID\": \"yyy1\",\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsUserID\": \"xxx1\"\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "5b5a0652-6905-4988-a1fc-3b3724225dc1": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "5b5a0652-6905-4988-a1fc-3b3724225dc1",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723588894613
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        },
+        "conn_2": {
+          "connID": "conn_2",
+          "capsParentIptID": "sss_joinfreeValue-0",
+          "parentData": {
+            "parentConnID": "conn_2",
+            "capsParentID": "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723588894613],
+      "capsUseLabel": {
+        "pt-br": "valor livre",
+        "en": "free value"
+      },
+      "capsUseDescription": {
+        "pt-br": "sss_fileSystem,",
+        "en": "sss_fileSystem,"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_fileSystem\": {\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsLabel\": { \"pt-br\": \"fileSystem\", \"en\": \"fileSystem\" },\n        \"capsDescription\": {\n          \"pt-br\": \"\",\n          \"en\": \"\"\n        },\n        \"capsCodeTypes\": [\"flaxSystem\", \"fileSystem\"],\n        \"capsCodeText\": \"\\n!#!code!#!\\n\",\n        \"capsCodeInputs\": {\n          \"sss_fileSystem-0\": {\n            \"capsIptCodeID\": \"sss_fileSystem-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"text\",\n            \"capsIptTxtInfo\": {\n              \"capsIptTxtDfValue\": \"noPath\",\n              \"capsIptTxtLabel\": { \"pt-br\": \"path\", \"en\": \"path\" },\n              \"capsIptTxtDescription\": { \"pt-br\": \"\", \"en\": \"\" }\n            }\n          },\n          \"sss_fileSystem-1\": {\n            \"capsIptCodeID\": \"sss_fileSystem-1\",\n            \"capsIptPosition\": \"1\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": { \"pt-br\": \"code text\", \"en\": \"code text\" },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsSeparator\": \"\\n\",\n              \"capsIptCapsDfCode\": \"// no code to inject\",\n              \"capsIptCapsTypesToAdd\": [\"free value\", \"project\"]\n            }\n          }\n        },\n        \"capsCodeVersionID\": \"1\",\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 }\n      }\n    },\n    \"capsType\": \"code\",\n    \"capsDB\": {\n      \"capsID\": \"sss_fileSystem\",\n      \"capsPrjID\": \"yyy1\",\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsUserID\": \"xxx1\"\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "f8a3f656-79dd-4ed6-9430-b400d5a31364": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "f8a3f656-79dd-4ed6-9430-b400d5a31364",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723588928865
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723588928865],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "sss_freeValue (sem vírgula)"
+      },
+      "capsUseDescription": {
+        "pt-br": "sss_freeValue (sem vírgula)",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_freeValue\": {\n    \"capsDB\": {\n      \"capsUserID\": \"usrn5e3jr2CvvnDpHigA\",\n      \"capsID\": \"sss_freeValue\",\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsPrjID\": \"ZOqi3kZm6c7XjObC79xk\"\n    },\n    \"capsType\": \"code\",\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsLabel\": { \"pt-br\": \"valor livre\", \"en\": \"free value\" },\n        \"capsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n        \"capsCodeTypes\": [\"jsValue\", \"free value\"],\n        \"capsCodeText\": \"!#!free value!#!\",\n        \"capsCodeVersionID\": \"1\",\n        \"capsCodeInputs\": {\n          \"sss_freeValue-0\": {\n            \"capsIptType\": \"text\",\n            \"capsIptRemoved\": false,\n            \"capsIptCodeID\": \"sss_freeValue-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptTxtInfo\": {\n              \"capsIptTxtLabel\": { \"pt-br\": \"valor livre\", \"en\": \"free value\" },\n              \"capsIptTxtDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptTxtDfValue\": \"undefined\"\n            }\n          }\n        },\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 }\n      }\n    }\n  }"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "f27782c2-5d95-482e-8183-7783c38c7f1d": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "f27782c2-5d95-482e-8183-7783c38c7f1d",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723588960436
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723588960436],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "}"
+      },
+      "capsUseDescription": {
+        "pt-br": "}",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "}"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "97536ff9-9ffe-45c3-901d-9ab9e2698c60": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "97536ff9-9ffe-45c3-901d-9ab9e2698c60",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723597803550
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723597803550],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "sss_joinfreeValue,"
+      },
+      "capsUseDescription": {
+        "pt-br": "sss_joinfreeValue,",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_joinfreeValue\": {\n    \"capsDB\": {\n      \"capsUserID\": \"usrn5e3jr2CvvnDpHigA\",\n      \"capsID\": \"sss_joinfreeValue\",\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsPrjID\": \"ZOqi3kZm6c7XjObC79xk\"\n    },\n    \"capsType\": \"code\",\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsLabel\": { \"pt-br\": \"junta valor livre\", \"en\": \"join free value\" },\n\n        \"capsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n        \"capsCodeTypes\": [\"jsValue\", \"free value\", \"join free value\"],\n        \"capsCodeText\": \"!#!free value!#!\",\n\n        \"capsCodeVersionID\": \"1\",\n        \"capsCodeInputs\": {\n          \"sss_joinfreeValue-0\": {\n            \"capsIptType\": \"capsules\",\n            \"capsIptRemoved\": false,\n            \"capsIptCodeID\": \"sss_joinfreeValue-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": { \"pt-br\": \"code text\", \"en\": \"code text\" },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n\n              \"capsIptCapsSeparator\": \"\\n\",\n\n              \"capsIptCapsDfCode\": \"// no code to inject\",\n              \"capsIptCapsTypesToAdd\": [\"free value\", \"project\"]\n            }\n          }\n        },\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 }\n      }\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "cc6cd4a5-38ff-4e45-ba73-e386f62ae0a9",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723598428186
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_joinfreeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723598428186],
+      "capsUseLabel": {
+        "pt-br": "join free value",
+        "en": "- SYSTEM -"
+      },
+      "capsUseDescription": {
+        "pt-br": "SYSTEM",
+        "en": "join free value"
+      },
+      "capsUseInputs": {
+        "sss_joinfreeValue-0": {
+          "capsIptCodeID": "sss_joinfreeValue-0",
+          "capsIptCapsValue": [
+            "b04abd57-ebc1-404f-be58-280de1231524",
+            "5b5a0652-6905-4988-a1fc-3b3724225dc1"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "7aaaf33e-f205-42ca-80d2-ebcf9b04faf7": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "7aaaf33e-f205-42ca-80d2-ebcf9b04faf7",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723603065561
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_file1_x"
+          }
+        },
+        "conn_2": {
+          "connID": "conn_2",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_2",
+            "capsParentID": "8420b447-c4c5-4358-95f7-0039d8a4816f"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723603065561],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "Empty"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "console.log(\"AQUI X2\");"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "6da20a74-36e3-442d-8204-af9209cecbce": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "6da20a74-36e3-442d-8204-af9209cecbce",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723608415174
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "9372d15f-75d4-46ff-a582-dba9686021f8"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723608415174],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "tools"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dir"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": [
+            "53feda74-0fd3-455c-9223-f9a051c4b8fe",
+            "5595a77b-97cc-42af-9762-183ff2b5b615"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "53feda74-0fd3-455c-9223-f9a051c4b8fe": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "53feda74-0fd3-455c-9223-f9a051c4b8fe",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723608461302
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "6da20a74-36e3-442d-8204-af9209cecbce"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723608461302],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/index.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["7a21b059-5519-4324-a64d-ff609aa2b78e"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "7a21b059-5519-4324-a64d-ff609aa2b78e": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "7a21b059-5519-4324-a64d-ff609aa2b78e",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723608594326
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "53feda74-0fd3-455c-9223-f9a051c4b8fe"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723608594326],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "export const tools = () => {\n    console.log(\"Welcome to the tools!\")\n}"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "1d7adf38-b01d-4e4f-8280-3f5b894b0df7": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "1d7adf38-b01d-4e4f-8280-3f5b894b0df7",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723654326670
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723654326670],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "ccc_dynView"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "undefined"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "5595a77b-97cc-42af-9762-183ff2b5b615": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "5595a77b-97cc-42af-9762-183ff2b5b615",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728368474
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "6da20a74-36e3-442d-8204-af9209cecbce"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728368474],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "base"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": [
+            "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6",
+            "6ecf9f06-797f-4029-8aa8-29856d14fd02",
+            "bbbef835-3235-4c2b-851b-c93c24117647",
+            "45f1b945-f5b3-432a-9cda-05db75d6c7ab",
+            "2c91e331-f71f-447e-8320-5d70d3a0cd2d"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728409397
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5595a77b-97cc-42af-9762-183ff2b5b615"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728409397],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "project"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": [
+            "4d1775df-f6e7-4316-8ffc-92f515d891ae",
+            "8e554214-cb62-4151-8a8d-c9a160e8e4e4",
+            "268f0de6-e575-41a1-b500-323264c73a62",
+            "81ec1a04-158e-4edf-affd-24e8a3a781e8",
+            "4cdaec22-040f-4325-b9f0-33a5374ada00",
+            "8ee12376-99b3-4fef-98de-403ac1efdbf5",
+            "960717fd-2f88-4f86-a82b-149f22acbc5d"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "4d1775df-f6e7-4316-8ffc-92f515d891ae": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "4d1775df-f6e7-4316-8ffc-92f515d891ae",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728420573
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728420573],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "mapElements.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/mapElements.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["8f6f64ab-80f8-40c2-9f3b-02a9c304e4af"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "8f6f64ab-80f8-40c2-9f3b-02a9c304e4af": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "8f6f64ab-80f8-40c2-9f3b-02a9c304e4af",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728597513
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "4d1775df-f6e7-4316-8ffc-92f515d891ae"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728597513],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Packs\nimport React from 'react';\n\ntype Tlist = ((args?: any) => JSX.Element)[];\n\nexport const mapElements = (list: Tlist, args?: any) => {\n  const condCall = list.flatMap(i => i).length > 0;\n  const renderList = () =>\n    list.map((Item, idx) => (\n      <React.Fragment key={idx}>{Item(args)}</React.Fragment>\n    ));\n  return condCall ? renderList() : <></>;\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "6ecf9f06-797f-4029-8aa8-29856d14fd02": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "6ecf9f06-797f-4029-8aa8-29856d14fd02",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728907717
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5595a77b-97cc-42af-9762-183ff2b5b615"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728907717],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "functions"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": ["11ec9a72-8540-419b-9d6b-619ea5c79e01"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "11ec9a72-8540-419b-9d6b-619ea5c79e01": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "11ec9a72-8540-419b-9d6b-619ea5c79e01",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728928934
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "6ecf9f06-797f-4029-8aa8-29856d14fd02"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728928934],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/functions/index.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["cbb002dd-3a8a-41d2-a477-dae049aa93cb"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "cbb002dd-3a8a-41d2-a477-dae049aa93cb": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "cbb002dd-3a8a-41d2-a477-dae049aa93cb",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723728992988
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "11ec9a72-8540-419b-9d6b-619ea5c79e01"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723728992988],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Internals\n// import { TcapsCodeData } from '../../../types/Tcaps/TcapsCode';\n\n// import { ccc_customPrepareData } from './ccc_customPrepareData';\n// import { ccc_fetchResponse } from './ccc_fetchResponse';\n// import { ccc_imagePicker } from './ccc_imagePicker';\n// import { ccc_consoleLog } from './ccc_consoleLog';\n// import { ccc_stringFunc } from './ccc_stringFunc';\n// import { ccc_promiseAll } from './ccc_promiseAll';\n// import { ccc_listFilter } from './ccc_listFilter';\n// import { ccc_setTimeout } from './ccc_setTimeout';\n// import { ccc_uploadImgs } from './ccc_uploadImgs';\n// import { ccc_expoUpdate } from './ccc_expoUpdate';\n// import { ccc_arrayPush } from './ccc_arrayPush';\n\n// import { ccc_setEditFields } from './ccc_setEditFields';\n// import { ccc_funcGroup } from './ccc_funcGroup';\n\n// import { ccc_callback } from './ccc_callback';\n// import { ccc_funcXx } from './ccc_funcXx';\n// import { ccc_setVar } from './ccc_setVar';\n// import { ccc_fetch } from './ccc_fetch';\n// import { ccc_goTo } from './ccc_goTo';\n// import { ccc_loop } from './ccc_loop';\n// import { ccc_condition } from './ccc_condition';\n\n// import { ccc_increment } from './ccc_increment';\n// import { ccc_decrement } from './ccc_decrement';\n\n// export const functions: TcapsCodeData = {\nexport const functions: any = {\n  // from FUNCTIONS\n  //   ...ccc_customPrepareData,\n  //   ...ccc_fetchResponse,\n  //   ...ccc_imagePicker,\n  //   ...ccc_promiseAll,\n  //   ...ccc_consoleLog,\n  //   ...ccc_listFilter,\n  //   ...ccc_arrayPush,\n  //   ...ccc_stringFunc,\n  //   ...ccc_setEditFields,\n  //   ...ccc_funcGroup,\n  //   ...ccc_setTimeout,\n  //   ...ccc_expoUpdate,\n  //   ...ccc_uploadImgs,\n  //   ...ccc_callback,\n  //   ...ccc_setVar,\n  //   ...ccc_funcXx,\n  //   ...ccc_fetch,\n  //   ...ccc_loop,\n  //   ...ccc_goTo,\n  //   ...ccc_condition,\n  //   ...ccc_increment,\n  //   ...ccc_decrement,\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "bbbef835-3235-4c2b-851b-c93c24117647": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "bbbef835-3235-4c2b-851b-c93c24117647",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723732827781
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5595a77b-97cc-42af-9762-183ff2b5b615"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723732827781],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "Elements"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": [
+            "bf74fac9-614e-45d6-be5e-6e570318fbd5",
+            "0b1a0280-07f0-498d-a289-a6d222e3d886"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "bf74fac9-614e-45d6-be5e-6e570318fbd5": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "bf74fac9-614e-45d6-be5e-6e570318fbd5",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723732841364
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "bbbef835-3235-4c2b-851b-c93c24117647"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723732841364],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/Elements/index.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["afc1def6-c7f4-4b79-bd41-2e0712fc044b"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "afc1def6-c7f4-4b79-bd41-2e0712fc044b": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "afc1def6-c7f4-4b79-bd41-2e0712fc044b",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723732928538
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "bf74fac9-614e-45d6-be5e-6e570318fbd5"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723732928538],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// // ---------- import React Packs\n// // ---------- import Local Tools\n// export { Login } from './Login';\n\n// export { CustomListener } from './CustomListener';\n\n// export { Loader } from './Loader';\n// export { Pressable3 } from './Pressable3';\n\n// export { FlatList2 } from './FlatList2';\n\n// export { DynView } from './DynView';\n// export { MapPlaces } from './MapPlaces';\n\n// export { IptPicker1 } from './IptPicker1';\n// export { SvgView1 } from './SvgView1';\n// export { Screen1 } from './Screen1';\n// export { Screen3 } from './Screen3';\n\n// export { IptTxtMaskCustomNumbers } from './IptTxt2';\n// export { IptTxtMaskCNPJ } from './IptTxt2';\n// export { IptTxtMaskPhone } from './IptTxt2';\n// export { IptTxtPassword } from './IptTxt2';\n// export { IptTxtMaskCCard } from './IptTxt2';\n// export { IptTxtMaskCPF } from './IptTxt2';\n// export { IptTxtMaskRG } from './IptTxt2';\n\n// export { IptTxt2 } from './IptTxt2';\n// export { IptTxtEdit } from './IptTxtEdit';\n\n// export { ImageBox } from './ImageBox';\nexport { Text } from './Text';\n\n// export { expoUpdate } from './expoUpdate';\n// export { Modelo } from './Modelo';\n\n// export { setThumbnail } from './setThumbnail';\n// export { uploadImgs } from './uploadImgs';\n// export { loop } from './loop';\n\n// export { ifFunc } from './if';\n// export { newCallback } from './newCallback';\n// export { setTimeOut } from './setTimeOut';\n\n// export { ScrollBar } from './ScrollBar';\n\n// export { Tprops_propValueTextInput } from './Tprops_propValueTextInput';\n\n// export { AutocompleteGooglePlaces } from './AutocompleteGooglePlaces';"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "8e786505-57ce-4cea-8a59-0e58d81a2d48": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "8e786505-57ce-4cea-8a59-0e58d81a2d48",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723733005940
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5595a77b-97cc-42af-9762-183ff2b5b615"
+          }
+        },
+        "conn_2": {
+          "connID": "conn_2",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_2",
+            "capsParentID": "xxx_dir1"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723733005940],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "Empty"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": ["8420b447-c4c5-4358-95f7-0039d8a4816f"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "8e554214-cb62-4151-8a8d-c9a160e8e4e4": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "8e554214-cb62-4151-8a8d-c9a160e8e4e4",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723733055182
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "8e786505-57ce-4cea-8a59-0e58d81a2d48"
+          }
+        },
+        "conn_2": {
+          "connID": "conn_2",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_2",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723733055182],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/index.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["4f7511ad-fba9-4253-a662-c39c0fa21e93"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "4f7511ad-fba9-4253-a662-c39c0fa21e93": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "4f7511ad-fba9-4253-a662-c39c0fa21e93",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723733123197
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "8e554214-cb62-4151-8a8d-c9a160e8e4e4"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723733123197],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import React Packs\nimport React from 'react';\nimport * as RN from 'react-native';\n// import { StatusBar } from 'expo-status-bar';\nimport { SafeAreaView, Platform, View } from 'react-native';\n\n// ---------- import Variables Pack\n\n// ---------- import Local Tools\nimport { mapElements } from './mapElements';\n\n// ---------- export Index Functions\nexport { getStlValues } from './getStlValues';\n// export { getVarValue } from './getVarValue';\n// export { setArgsVars } from './setArgsVars';\nexport { mapElements } from './mapElements';\n// export { getCtData } from './getCtData';\n// export { pathSel } from './pathSel';\n// export { setData } from './setData';\n// export { argSel } from './argSel';\nexport { Screen } from './Screen';\n// export { goTo } from './goTo';\n\ntype Tprops = {\n  configData: {\n    screens: any[];\n    initCt: Record<string, any>;\n    arrInitFuncs: (() => void)[];\n  };\n};\n\n// ---------- set Main Component\nexport const Project = ({ configData }: Tprops) => {\n  // ---------- set Data\n  const { screens, arrInitFuncs } = configData;\n\n  // ---------- call Functions (If Exists)\n  React.useEffect(() => {\n    const callFn = async () => {\n      for (const currFunc of arrInitFuncs) await currFunc();\n    };\n\n    callFn().catch(err => console.log('Project Start Functions', { err }));\n  }, []);\n\n  return (\n    <RN.View style={{ flexDirection: 'column', width: '100%', height: '100%' }}>\n      <SafeAreaView\n        style={{ width: '100%', height: '100%', overflow: 'hidden' }}\n      >\n        {Platform.OS !== 'web' && (\n          <View style={{ height: 30, backgroundColor: '#450b2c' }} />\n        )}\n        {mapElements(screens)}\n        {/* <StatusBar style=\"light\" /> */}\n      </SafeAreaView>\n    </RN.View>\n  );\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "45f1b945-f5b3-432a-9cda-05db75d6c7ab": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "45f1b945-f5b3-432a-9cda-05db75d6c7ab",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723734108074
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5595a77b-97cc-42af-9762-183ff2b5b615"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723734108074],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "jsvals"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": ["5e1f8e32-79bb-45b7-b1c4-de04f562c1bb"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "5e1f8e32-79bb-45b7-b1c4-de04f562c1bb": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "5e1f8e32-79bb-45b7-b1c4-de04f562c1bb",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723734627223
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "45f1b945-f5b3-432a-9cda-05db75d6c7ab"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723734627223],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/jsvals/index.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["4b9870cc-139f-45f3-b91c-45a98cab1d76"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "4b9870cc-139f-45f3-b91c-45a98cab1d76": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "4b9870cc-139f-45f3-b91c-45a98cab1d76",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723734664611
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5e1f8e32-79bb-45b7-b1c4-de04f562c1bb"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723734664611],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Local Tools\nimport { argSel, getCtData } from './src/tools/base/project';\n\nconst css2 =\n  'color: cyan; background-color: #444; font-size: 11px; padding: 2px 6px; border-radius: 3px';\n\n// ---------------- varReader\n// --------------------------\ntype Tprops_varReader = { pass: { path: string[] | string } };\nexport const varReader = (props: Tprops_varReader) => {\n  const { path } = props.pass;\n\n  let newPath = '';\n\n  const isArray = Array.isArray(path);\n  if (isArray) {\n    newPath = path.reduce((prev, curr) => prev + curr, '');\n  } else {\n    newPath = path;\n  }\n  const returnVarValue = getCtData(newPath);\n  console.log('%cvarReader', css2, { varPath: newPath, value: returnVarValue });\n\n  return returnVarValue;\n};\n\n// ---------------- argReader\n// --------------------------\ntype Tprops_argReader = { pass: { argPath: string; args: any } };\nexport const argReader = (props: Tprops_argReader) => {\n  const { argPath, args } = props.pass;\n\n  let newArgPath = '';\n\n  const isArray = Array.isArray(argPath);\n  if (isArray) {\n    newArgPath = argPath.reduce((prev, curr) => prev + curr, '');\n  } else {\n    newArgPath = argPath;\n  }\n  const returnArgValue = argSel(args, newArgPath);\n  console.log('%cargReader', css2, {\n    varPath: newArgPath,\n    value: returnArgValue,\n  });\n\n  return returnArgValue;\n};\n\n// ------------ j3 to joinStringValue\n// ----------------------------------\ntype Tprops_joinStringValue = {\n  pass: { arrayStrings: any; joinSeparator: any };\n};\nexport const joinStringValue = (props: Tprops_joinStringValue) => {\n  const { arrayStrings, joinSeparator } = props.pass;\n\n  return arrayStrings.join(joinSeparator);\n};\n\n// --------- j7 to propJsonStrignify\n// ---------------------------------\ntype Tprops_propJsonStrignify = {\n  pass: { objectProperties: any };\n};\nexport const propJsonStrignify = (props: Tprops_propJsonStrignify) => {\n  const { objectProperties } = props.pass;\n\n  return JSON.stringify(objectProperties);\n};\n\n// ------------------------ Direct Return\n// ---------------------- j8 to freeValue\n// -------- propObj, propString, propArray\n// ---- stringValue, arrayValue, freeValue\ntype Tprops_freeValue = {\n  pass: { propertieValues: any };\n};\nexport const freeValue = (props: Tprops_freeValue) => {\n  const { propertieValues } = props.pass;\n\n  return propertieValues;\n};\n\n// ---------- prop j10 to urlEncoded\n// ---------------------------------\ntype Tprops_urlEncoded = {\n  pass: { objectProperties: {} };\n};\nexport const urlEncoded = (props: Tprops_urlEncoded) => {\n  const { objectProperties } = props.pass;\n\n  return new URLSearchParams(objectProperties);\n};\n\n// ---------------- j12 to toggleVar\n// ---------------------------------\ntype Tprops_toggleVar = { pass: { varToToggle: any; args: any } };\nexport const toggleVar = (props: Tprops_toggleVar) => {\n  const { varToToggle, args } = props.pass;\n\n  return varToToggle;\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "2c91e331-f71f-447e-8320-5d70d3a0cd2d": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "2c91e331-f71f-447e-8320-5d70d3a0cd2d",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723734792443
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "5595a77b-97cc-42af-9762-183ff2b5b615"
+          }
+        }
+      },
+      "capsCodeID": "sss_dirSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723734792443],
+      "capsUseLabel": {
+        "pt-br": "dirSystem",
+        "en": "props"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "dirSystem"
+      },
+      "capsUseInputs": {
+        "sss_dirSystem-0": {
+          "capsIptCodeID": "sss_dirSystem-0",
+          "capsIptTxtValue": "root/"
+        },
+        "sss_dirSystem-1": {
+          "capsIptCodeID": "sss_dirSystem-1",
+          "capsIptCapsValue": ["36919184-bed6-494f-b67a-b5865f1d5615"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "36919184-bed6-494f-b67a-b5865f1d5615": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "36919184-bed6-494f-b67a-b5865f1d5615",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723734891637
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "2c91e331-f71f-447e-8320-5d70d3a0cd2d"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723734891637],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "index.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/props/index.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["efe6de12-44a6-4b22-815a-2cfc58cf87db"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "efe6de12-44a6-4b22-815a-2cfc58cf87db": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "efe6de12-44a6-4b22-815a-2cfc58cf87db",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723735112113
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "36919184-bed6-494f-b67a-b5865f1d5615"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723735112113],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ------ button\n// import { disabled } from './button';\n// import { activeOpacity } from './button';\n// import { tvParallaxProperties } from './button';\n// import { hasTVPreferredFocus } from './button';\n// import { nextFocusDown } from './button';\n// import { nextFocusLeft } from './button';\n// import { nextFocusRight } from './button';\n// import { nextFocusUp } from './button';\n\n// // ------ image\n// import { accessibilityLabel } from './image';\n// import { alt } from './image';\n// import { blurRadius } from './image';\n// import { capInsets } from './image';\n// import { crossOrigin } from './image';\n// import { defaultSource } from './image';\n// import { fadeDuration } from './image';\n// import { height } from './image';\n// import { loadingIndicatorSource } from './image';\n// import { objectFit } from './image';\n// import { onError } from './image';\n// import { onLayout } from './image';\n// import { onLoad } from './image';\n// import { onLoadEnd } from './image';\n// import { onLoadStart } from './image';\n\n// // ------ inputText\n// import { allowFontScaling } from './inputText';\n// import { autoCapitalize } from './inputText';\n// import { editable } from './inputText';\n// import { placeholder } from './inputText';\n// import { placeholderTextColor } from './inputText';\n// import { onFocus } from './inputText';\n// import { onBlur } from './inputText';\n// import { pt24 } from './inputText';\n\n// // ------ list\n// // import { Component } from './list';\n// // import { ComponentStyle } from './list';\n// import { ItemSeparatorComponent } from './list';\n// import { ListFooterComponentStyle } from './list';\n// import { ListHeaderComponent } from './list';\n// import { ListHeaderComponentStyle } from './list';\n// import { columnWrapperStyle } from './list';\n// import { extraData } from './list';\n// import { getItemLayout } from './list';\n// import { horizontal } from './list';\n// import { initialScrollIndex } from './list';\n// import { inverted } from './list';\n// import { keyExtractor } from './list';\n// import { onRefresh } from './list';\n// import { ListEmptyComponent } from './list';\n// import { ListFooterComponent } from './list';\n// import { onEndReachedThreshold } from './list';\n// import { onEndReached } from './list';\n// import { numColumns } from './list';\n\n// // ------ loader\n// import { size } from './loader';\n// import { color } from './loader';\n\n// // ------ scrollview\n// import { alwaysBounceHorizontal } from './scrollview';\n// import { alwaysBounceVertical } from './scrollview';\n// import { bounces } from './scrollview';\n// import { bouncesZoom } from './scrollview';\n// import { automaticallyAdjustContentInsets } from './scrollview';\n// import { automaticallyAdjustKeyboardInsets } from './scrollview';\n// import { automaticallyAdjustsScrollIndicatorInsets } from './scrollview';\n// import { canCancelContentTouches } from './scrollview';\n// import { centerContent } from './scrollview';\n// import { contentContainerStyle } from './scrollview';\n// import { contentInset } from './scrollview';\n// import { contentInsetAdjustmentBehavior } from './scrollview';\n// import { contentOffset } from './scrollview';\n// import { decelerationRate } from './scrollview';\n// import { directionalLockEnabled } from './scrollview';\n// import { disableIntervalMomentum } from './scrollview';\n// import { disableScrollViewPanResponder } from './scrollview';\n// import { endFillColor } from './scrollview';\n// import { fadingEdgeLength } from './scrollview';\n// // import { horizontal2 } from './scrollview';\n// import { indicatorStyle } from './scrollview';\n// import { invertStickyHeaders } from './scrollview';\n// import { keyboardDismissMode } from './scrollview';\n// import { keyboardShouldPersistTaps } from './scrollview';\n// import { maintainVisibleContentPosition } from './scrollview';\n// import { maximumZoomScale } from './scrollview';\n// import { minimumZoomScale } from './scrollview';\n// import { nestedScrollEnabled } from './scrollview';\n// import { overScrollMode } from './scrollview';\n// import { pagingEnabled } from './scrollview';\n// import { persistentScrollbar } from './scrollview';\n// import { pinchGestureEnabled } from './scrollview';\n// import { removeClippedSubviews } from './scrollview';\n// import { scrollEnabled } from './scrollview';\n// import { scrollEventThrottle } from './scrollview';\n// import { scrollIndicatorInsets } from './scrollview';\n// import { scrollToOverflowEnabled } from './scrollview';\n// import { scrollsToTop } from './scrollview';\n// import { showsHorizontalScrollIndicator } from './scrollview';\n// import { ShowsVerticalScrollIndicator } from './scrollview';\n// import { snapToAlignment } from './scrollview';\n// import { snapToEnd } from './scrollview';\n// import { snapToInterval } from './scrollview';\n// import { snapToOffsets } from './scrollview';\n// import { snapToStart } from './scrollview';\n// import { stickyHeaderHiddenOnScroll } from './scrollview';\n// import { stickyHeaderIndices } from './scrollview';\n// import { zoomScale } from './scrollview';\n// import { onScrollEndDrag } from './scrollview';\n// import { scrollPerfTagg } from './scrollview';\n// import { refreshControl } from './scrollview';\n// import { onContentSizeChange } from './scrollview';\n// import { onMomentumScrollBegin } from './scrollview';\n// import { onMomentumScrollEnd } from './scrollview';\n// import { onScroll } from './scrollview';\n// import { onScrollBeginDrag } from './scrollview';\n// import { onScrollToTop } from './scrollview';\n// import { style } from './scrollview';\n\n// // ------ text\n// import { pt15 } from './text';\n// import { pt16 } from './text';\n// import { pt17 } from './text';\n// import { pt18 } from './text';\n// import { pt19 } from './text';\n// import { pt20 } from './text';\n// import { pt21 } from './text';\n// import { pt22 } from './text';\n// import { pt23 } from './text';\n// import { pt25 } from './text';\n\n// // ------ view\n// import { pv15 } from './view';\n// import { pv16 } from './view';\n// import { pv17 } from './view';\n// import { pv18 } from './view';\n// import { pv19 } from './view';\n// import { pv20 } from './view';\n// import { pv21 } from './view';\n// import { pv22 } from './view';\n\nexport const props = {\n  //   alwaysBounceHorizontal,\n  //   alwaysBounceVertical,\n  //   bounces,\n  //   bouncesZoom,\n  //   automaticallyAdjustContentInsets,\n  //   automaticallyAdjustKeyboardInsets,\n  //   automaticallyAdjustsScrollIndicatorInsets,\n  //   canCancelContentTouches,\n  //   centerContent,\n  //   contentContainerStyle,\n  //   contentInset,\n  //   contentInsetAdjustmentBehavior,\n  //   contentOffset,\n  //   decelerationRate,\n  //   directionalLockEnabled,\n  //   disableIntervalMomentum,\n  //   disableScrollViewPanResponder,\n  //   endFillColor,\n  //   fadingEdgeLength,\n  //   horizontal,\n  //   indicatorStyle,\n  //   invertStickyHeaders,\n  //   keyboardDismissMode,\n  //   keyboardShouldPersistTaps,\n  //   maintainVisibleContentPosition,\n  //   maximumZoomScale,\n  //   minimumZoomScale,\n  //   nestedScrollEnabled,\n  //   overScrollMode,\n  //   pagingEnabled,\n  //   persistentScrollbar,\n  //   pinchGestureEnabled,\n  //   removeClippedSubviews,\n  //   scrollEnabled,\n  //   scrollEventThrottle,\n  //   scrollIndicatorInsets,\n  //   scrollToOverflowEnabled,\n  //   scrollsToTop,\n  //   showsHorizontalScrollIndicator,\n  //   ShowsVerticalScrollIndicator,\n  //   snapToAlignment,\n  //   snapToEnd,\n  //   snapToInterval,\n  //   snapToOffsets,\n  //   snapToStart,\n  //   stickyHeaderHiddenOnScroll,\n  //   stickyHeaderIndices,\n  //   zoomScale,\n  //   onScrollEndDrag,\n  //   scrollPerfTagg,\n  //   refreshControl,\n  //   onContentSizeChange,\n  //   onMomentumScrollBegin,\n  //   onMomentumScrollEnd,\n  //   onScroll,\n  //   onScrollBeginDrag,\n  //   onScrollToTop,\n  //   style,\n  //   size,\n  //   color,\n  //   // Component,\n  //   // ComponentStyle,\n  //   ItemSeparatorComponent,\n  //   ListFooterComponentStyle,\n  //   ListHeaderComponent,\n  //   ListHeaderComponentStyle,\n  //   columnWrapperStyle,\n  //   extraData,\n  //   getItemLayout,\n  //   // horizontal2,\n  //   initialScrollIndex,\n  //   inverted,\n  //   keyExtractor,\n  //   onRefresh,\n  //   ListEmptyComponent,\n  //   ListFooterComponent,\n  //   onEndReachedThreshold,\n  //   onEndReached,\n  //   numColumns,\n  //   accessibilityLabel,\n  //   alt,\n  //   blurRadius,\n  //   capInsets,\n  //   crossOrigin,\n  //   defaultSource,\n  //   fadeDuration,\n  //   height,\n  //   loadingIndicatorSource,\n  //   objectFit,\n  //   onError,\n  //   onLayout,\n  //   onLoad,\n  //   onLoadEnd,\n  //   onLoadStart,\n  //   disabled,\n  //   activeOpacity,\n  //   tvParallaxProperties,\n  //   hasTVPreferredFocus,\n  //   nextFocusDown,\n  //   nextFocusLeft,\n  //   nextFocusRight,\n  //   nextFocusUp,\n  //   allowFontScaling,\n  //   autoCapitalize,\n  //   editable,\n  //   placeholder,\n  //   placeholderTextColor,\n  //   onFocus,\n  //   onBlur,\n  //   pt15,\n  //   pt16,\n  //   pt17,\n  //   pt18,\n  //   pt19,\n  //   pt20,\n  //   pt21,\n  //   pt22,\n  //   pt23,\n  //   pt24,\n  //   pt25,\n  //   pv15,\n  //   pv16,\n  //   pv17,\n  //   pv18,\n  //   pv19,\n  //   pv20,\n  //   pv21,\n  //   pv22,\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "1faf8424-06b9-4e90-94f7-14c84fb99de4": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "1faf8424-06b9-4e90-94f7-14c84fb99de4",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723739928206
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "xxx_dir1"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723739928206],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "App.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./App.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["82e69b51-e376-47d5-b3eb-cd226ed7721c"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "82e69b51-e376-47d5-b3eb-cd226ed7721c": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "82e69b51-e376-47d5-b3eb-cd226ed7721c",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723739962478
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "1faf8424-06b9-4e90-94f7-14c84fb99de4"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723739962478],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "import React from 'react';\nimport { Router } from './src';\n\nexport default function App() {\n  return <Router />;\n}"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "f59a0bdf-667b-40b3-91e2-2ba01d44e2a6": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "f59a0bdf-667b-40b3-91e2-2ba01d44e2a6",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723743619707
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723743619707],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "sss_project,"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_project\": {\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsCodeVersionID\": \"1\",\n        \"capsVersionCreatedAt\": {\n          \"seconds\": 1669821908,\n          \"nanoseconds\": 764000000\n        },\n        \"capsLabel\": { \"pt-br\": \"Projeto\", \"en\": \"Project\" },\n        \"capsDescription\": {\n          \"pt-br\": \"Cápsula contendo o código para iniciar um projeto.\",\n          \"en\": \"Capsule containing the code to start a project.\"\n        },\n        \"capsCodeTypes\": [\"project\"],\n        \"capsCodeText\": \"\\n // ---------- import React Packs\\n import React from 'react';\\n import * as RN from 'react-native';\\n \\n // ---------- import Variables Pack\\n import { create } from 'zustand';\\n \\n // ---------- import Local Tools\\n // import {mapElements} from './tools/base/project/mapElements';\\n import { Project, Screen } from './tools/base/project';\\n // import * as functions from './tools/base/functions';\\n import * as Elements from './tools/base/Elements';\\n // import * as jsvals from './tools/base/jsvals';\\n // import { props } from './tools/base/props';\\n // import * as customs from './tools/customs';\\n // import * as stls from './tools/base/stls';\\n // import { tools } from \\\"./tools\\\";\\n \\n // ---------- set Caps Inputs\\n const currRoute = '!#!initial screen!#!'\\n \\n let args:any = []\\n \\n const screens = [\\n !#!Lista de Telas!#!\\n ]\\n \\n const initCt = () => ({\\n !#!Lista de Variáveis!#!\\n });\\n const initObj = initCt();\\n \\n const arrInitFuncs = [\\n !#!Start Functions!#!\\n ];\\n \\n export const useRoutes = create(() => ({ currRoute }));\\n export const useData = create(() => initObj);\\n \\n // ---------- set Main Component\\n export const Router = () => {\\n return (\\n <Project\\n configData={{\\n screens,\\n initCt,\\n arrInitFuncs,\\n }}\\n />\\n );\\n };\",\n        \"capsCodeInputs\": {\n          \"sss_project-0\": {\n            \"capsIptCodeID\": \"sss_project-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"text\",\n            \"capsIptTxtInfo\": {\n              \"capsIptTxtDfValue\": \"home\",\n              \"capsIptTxtLabel\": {\n                \"pt-br\": \"Tela Inicial\",\n                \"en\": \"Initial Screen\"\n              },\n              \"capsIptTxtDescription\": {\n                \"pt-br\": \"Adicione o Caminho de URL da tela que vai iniciar o seu projeto.\",\n                \"en\": \"Add the URL Path of the screen that will start your project.\"\n              }\n            }\n          },\n          \"sss_project-1\": {\n            \"capsIptCodeID\": \"sss_project-1\",\n            \"capsIptPosition\": \"3\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Lista de Telas\",\n                \"en\": \"Screens List\"\n              },\n              \"capsIptCapsDescription\": {\n                \"pt-br\": \"Adicione Telas para o projeto.\",\n                \"en\": \"Add Screens to the project.\"\n              },\n              \"capsIptCapsDfCode\": \"(...args: any) => <RN.View style={{width: '100%',height: '100%',justifyContent: 'center', alignItems: 'center',backgroundColor: '#202'}}><RN.Text style={{color: 'white'}}>Add a Screen to Start</RN.Text></RN.View>\",\n              \"capsIptCapsTypesToAdd\": [\"Tela\"]\n            }\n          },\n          \"sss_project-2\": {\n            \"capsIptCodeID\": \"sss_project-2\",\n            \"capsIptPosition\": \"2\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Lista de Variáveis\",\n                \"en\": \"Variables List\"\n              },\n              \"capsIptCapsDescription\": {\n                \"pt-br\": \"Adicione Variáveis para o projeto.\",\n                \"en\": \"Add Variables to the project.\"\n              },\n              \"capsIptCapsDfCode\": \"true: \\\"true\\\"\",\n              \"capsIptCapsTypesToAdd\": [\"propValue\"]\n            }\n          },\n          \"sss_project-3\": {\n            \"capsIptCodeID\": \"sss_project-3\",\n            \"capsIptPosition\": \"1\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Função de Início\",\n                \"en\": \"Start Function\"\n              },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsDfCode\": \"()=>{}\",\n              \"capsIptCapsTypesToAdd\": [\"function\"]\n            }\n          }\n        }\n      }\n    },\n    \"capsType\": \"code\",\n    \"capsDB\": {\n      \"capsPrjID\": \"yyy1\",\n      \"capsCreatedAt\": { \"seconds\": 1669821908, \"nanoseconds\": 764000000 },\n      \"capsID\": \"sss_project\",\n      \"capsUserID\": \"xxx1\"\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "05605d83-b56f-424e-b5db-2ade4c225aae": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "05605d83-b56f-424e-b5db-2ade4c225aae",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723745088272
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "f7ca4b55-74c8-4158-b8b9-1dc7e6366430"
+          }
+        }
+      },
+      "capsCodeID": "sss_project",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723745088272],
+      "capsUseLabel": {
+        "pt-br": "Project",
+        "en": "Project"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_project-0": {
+          "capsIptCodeID": "sss_project-0",
+          "capsIptTxtValue": "home"
+        },
+        "sss_project-1": {
+          "capsIptCodeID": "sss_project-1",
+          "capsIptCapsValue": ["6675a657-ef9a-46ad-802d-6c784fc1129b"]
+        },
+        "sss_project-2": {
+          "capsIptCodeID": "sss_project-2",
+          "capsIptCapsValue": []
+        },
+        "sss_project-3": {
+          "capsIptCodeID": "sss_project-3",
+          "capsIptCapsValue": []
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "8420b447-c4c5-4358-95f7-0039d8a4816f": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "8420b447-c4c5-4358-95f7-0039d8a4816f",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723746350474
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "8e786505-57ce-4cea-8a59-0e58d81a2d48"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723746350474],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "Empty"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "noPath"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": [
+            "d20737ca-40a3-4021-b4d6-0f8d83744d3e",
+            "7aaaf33e-f205-42ca-80d2-ebcf9b04faf7"
+          ]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "268f0de6-e575-41a1-b500-323264c73a62": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "268f0de6-e575-41a1-b500-323264c73a62",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749239078
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749239078],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "Screen.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/Screen.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["a9a4f67d-ad3a-4318-959c-c84bf7fb2880"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "a9a4f67d-ad3a-4318-959c-c84bf7fb2880": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "a9a4f67d-ad3a-4318-959c-c84bf7fb2880",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749348522
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "268f0de6-e575-41a1-b500-323264c73a62"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749348522],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Packs\nimport React from 'react';\nimport { View } from 'react-native';\n\n// ---------- import Local Tools\nimport { getStlValues, mapElements } from '../project';\nimport { useRoutes } from '../../..';\n\ntype Tprops = {\n  pass: {\n    pathScreen: string;\n    styles: any;\n    screenElements: any;\n    startFunctions: any;\n    args: any;\n  };\n};\n\n// Screen (newBase)\nexport const Screen = (props: Tprops) => {\n  const { pathScreen } = props.pass;\n  const currRoute = useRoutes(ct => ct.currRoute);\n  const condShow = pathScreen === currRoute;\n\n  return <>{condShow && <ScreenRender pass={props.pass} />}</>;\n};\n\nfunction ScreenRender(props: Tprops) {\n  const { styles, screenElements, startFunctions, args } = props.pass;\n\n  // ---------- call Functions (If Exists)\n  React.useEffect(() => {\n    const callFn = async () => {\n      for (const currFunc of startFunctions) await currFunc();\n    };\n    callFn().catch(err => console.log({ err }));\n  }, []);\n\n  // ---------- set Variables Styles (If Exists)\n  const stl = getStlValues(styles);\n\n  // ---------- set Render\n  return <View style={[stl]}>{mapElements(screenElements, args)}</View>;\n}"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "81ec1a04-158e-4edf-affd-24e8a3a781e8": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "81ec1a04-158e-4edf-affd-24e8a3a781e8",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749481979
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749481979],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "getStlValues.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/getStlValues.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["9ef94102-3693-44a7-b5db-2a2ea81883b9"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "9ef94102-3693-44a7-b5db-2a2ea81883b9": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "9ef94102-3693-44a7-b5db-2a2ea81883b9",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749530596
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "81ec1a04-158e-4edf-affd-24e8a3a781e8"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749530596],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Local Tools\nimport { getVarValue } from './getVarValue';\n\n// ---------- import Packs\nimport { Style, getStylesForProperty } from 'css-to-react-native';\n\n// ----------- set Style Variable Selection\nexport const getStlValues = (arrGetValues: any) => {\n  const allStls = arrGetValues.flatMap(style => {\n    if (style.shadowOffset) return style;\n\n    const possibleValues = Object.keys(style);\n\n    const setPx = (stlVal: any) => {\n      const checkNum = typeof stlVal === 'number';\n      const condVal = checkNum ? String(stlVal) + 'px' : stlVal;\n\n      return condVal;\n    };\n    const result = possibleValues.flatMap(key => {\n      const stlVal = style[key];\n\n      const [condVar, varValue] = getVarValue(stlVal, 'noComponent');\n\n      if (!condVar) {\n        const valToPx = String(setPx(stlVal));\n        const process2 = getStylesForProperty(key, valToPx);\n        // console.log({ process2 });\n        return process2;\n      }\n\n      const varToPx = String(setPx(varValue));\n      const process3 = getStylesForProperty(key, varToPx, true);\n      console.log({ process3 });\n      return process3;\n    });\n\n    return result as Style[];\n  });\n\n  return allStls;\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "4cdaec22-040f-4325-b9f0-33a5374ada00": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "4cdaec22-040f-4325-b9f0-33a5374ada00",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749573331
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749573331],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "getVarValue.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/getVarValue.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["097bbbfb-5221-4cc4-8f1e-8cd3f1d9ea9d"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "097bbbfb-5221-4cc4-8f1e-8cd3f1d9ea9d": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "097bbbfb-5221-4cc4-8f1e-8cd3f1d9ea9d",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749625447
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "4cdaec22-040f-4325-b9f0-33a5374ada00"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749625447],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Local Tools\nimport { getCtData } from './getCtData';\nimport { pathSel } from './pathSel';\nimport { useData } from '../../..';\n\n// ----------- set Variable Selection\n\nexport const getVarValue = (\n  path: string,\n  setGet: 'noComponent' | 'Component',\n) => {\n  const checkString = typeof path !== 'string';\n  if (checkString) return [false, null];\n\n  const condBool = path.includes('{{') && path.includes('}}');\n  if (!condBool) return [false, null];\n\n  const varPath = path.replace('{{', '').replace('}}', '');\n  if (setGet === 'noComponent') {\n    const varValue = getCtData(varPath);\n    console.log('dentro getCtData', { varValue });\n    return [true, varValue];\n  }\n\n  const varValue = useData(ct => pathSel(ct, varPath));\n  return [true, varValue];\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "8ee12376-99b3-4fef-98de-403ac1efdbf5": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "8ee12376-99b3-4fef-98de-403ac1efdbf5",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749679476
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749679476],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "getCtData.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/getCtData.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["c6b1100e-5359-4093-afc1-47654b76901a"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "c6b1100e-5359-4093-afc1-47654b76901a": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "c6b1100e-5359-4093-afc1-47654b76901a",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749723294
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "8ee12376-99b3-4fef-98de-403ac1efdbf5"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749723294],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Local Tools\nimport { useData } from '../../..';\nimport { pathSel } from './pathSel';\n\nexport const getCtData = (path: string) => {\n  const ct = useData.getState();\n  const varValue = pathSel(ct, path);\n  return varValue;\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "960717fd-2f88-4f86-a82b-149f22acbc5d": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "960717fd-2f88-4f86-a82b-149f22acbc5d",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749766161
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "e7421b36-ebb0-4fbb-b186-c7c64aecdcb6"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749766161],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "pathSel.ts"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/project/pathSel.ts"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["7f2d31cb-9599-4b19-ab6f-5f285c5bfc36"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "7f2d31cb-9599-4b19-ab6f-5f285c5bfc36": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "7f2d31cb-9599-4b19-ab6f-5f285c5bfc36",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723749795499
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "960717fd-2f88-4f86-a82b-149f22acbc5d"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723749795499],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ----------- set Path Selection\nexport const pathSel = (obj?: any, path?: any) => {\n  const pathArr = path.split('.');\n\n  const reduceCb = (p, c) => {\n    return p && p[c];\n  };\n  const valueSel = pathArr.reduce(reduceCb, obj);\n\n  return valueSel;\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "53653d81-28b4-4e31-ad58-8d114825d1bc": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "53653d81-28b4-4e31-ad58-8d114825d1bc",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723750433992
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723750433992],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "sss_screen,"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_screen\": {\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n        \"capsCodeVersionID\": \"1\",\n        \"capsLabel\": { \"pt-br\": \"tela\", \"en\": \"screen\" },\n        \"capsDescription\": {\n          \"pt-br\": \"Cria uma nova Tela\",\n          \"en\": \"Creates a new Screen\"\n        },\n        \"capsCodeTypes\": [\"Tela\"],\n        \"capsCodeText\": \"\\n (...args: any) => <Screen pass={{\\n pathScreen:\\\"!#!0!#!\\\",\\n \\n styles:[!#!1!#!],\\n \\n screenElements:[!#!2!#!],\\n \\n startFunctions:[!#!3!#!],\\n \\n args,\\n }}/>\",\n        \"capsCodeInputs\": {\n          \"sss_screen-0\": {\n            \"capsIptCodeID\": \"sss_screen-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"text\",\n            \"capsIptTxtInfo\": {\n              \"capsIptTxtDescription\": {\n                \"pt-br\": \"Caminho pra vc definir a rota da sua tela\",\n                \"en\": \"Path to screen route\"\n              },\n              \"capsIptTxtDfValue\": \"home\",\n              \"capsIptTxtLabel\": {\n                \"pt-br\": \"Caminho da Tela\",\n                \"en\": \"Path Screen\"\n              }\n            }\n          },\n          \"sss_screen-1\": {\n            \"capsIptCodeID\": \"sss_screen-1\",\n            \"capsIptPosition\": \"2\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsTypesToAdd\": [\"Estilo Caixa\", \"Estilo Layout\"],\n              \"capsIptCapsLabel\": { \"pt-br\": \"Estilos\", \"en\": \"Styles\" },\n              \"capsIptCapsDescription\": {\n                \"pt-br\": \"Adicione os itens que desejar para modificar o estilo dessa Tela.\",\n                \"en\": \"Add items to change screen style.\"\n              },\n              \"capsIptCapsDfCode\": \"\\n {\\n backgroundColor: '#101',\\n justifyContent: 'center',\\n alignItems: 'center',\\n height: '100%',\\n width: '100%',\\n }\\n \"\n            }\n          },\n          \"sss_screen-2\": {\n            \"capsIptCodeID\": \"sss_screen-2\",\n            \"capsIptPosition\": \"3\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Elementos de Tela\",\n                \"en\": \"Screen Elements\"\n              },\n              \"capsIptCapsDescription\": {\n                \"pt-br\": \"Permite a inserção de elementos filhos\",\n                \"en\": \"Add children items\"\n              },\n              \"capsIptCapsDfCode\": \"() => {\\n const textStyle = {\\n fontSize: 20,\\n color: '#fff2',\\n textAlign:'center',\\n maxWidth: 200,\\n // maxWidth: '200px'<= #ATTENTION: Native ERROR! No string!\\n };\\n \\n return (\\n <RN.Text style={textStyle}>\\n {'Adicione Elementos nessa tela!'}\\n </RN.Text>);\\n }\",\n              \"capsIptCapsTypesToAdd\": [\"Elemento de Tela\"]\n            }\n          },\n          \"sss_screen-3\": {\n            \"capsIptCodeID\": \"sss_screen-3\",\n            \"capsIptPosition\": \"1\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Funções de Início\",\n                \"en\": \"Start Functions\"\n              },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsDfCode\": \"()=>{}\",\n              \"capsIptCapsTypesToAdd\": [\"function\"]\n            }\n          }\n        }\n      }\n    },\n    \"capsType\": \"code\",\n    \"capsDB\": {\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsUserID\": \"usrn5e3jr2CvvnDpHigA\",\n      \"capsPrjID\": \"ZOqi3kZm6c7XjObC79xk\",\n      \"capsID\": \"sss_screen\"\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "6675a657-ef9a-46ad-802d-6c784fc1129b": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "6675a657-ef9a-46ad-802d-6c784fc1129b",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723751412462
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_project-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "05605d83-b56f-424e-b5db-2ade4c225aae"
+          }
+        }
+      },
+      "capsCodeID": "sss_screen",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723751412462],
+      "capsUseLabel": {
+        "pt-br": "screen",
+        "en": "screen"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_screen-0": {
+          "capsIptCodeID": "sss_screen-0",
+          "capsIptTxtValue": "home"
+        },
+        "sss_screen-1": {
+          "capsIptCodeID": "sss_screen-1",
+          "capsIptCapsValue": []
+        },
+        "sss_screen-2": {
+          "capsIptCodeID": "sss_screen-2",
+          "capsIptCapsValue": ["65294b2e-6d3e-40e8-8de1-1a04394e49c4"]
+        },
+        "sss_screen-3": {
+          "capsIptCodeID": "sss_screen-3",
+          "capsIptCapsValue": []
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "0b1a0280-07f0-498d-a289-a6d222e3d886": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "0b1a0280-07f0-498d-a289-a6d222e3d886",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723752735871
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_dirSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "bbbef835-3235-4c2b-851b-c93c24117647"
+          }
+        }
+      },
+      "capsCodeID": "sss_fileSystem",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723752735871],
+      "capsUseLabel": {
+        "pt-br": "fileSystem",
+        "en": "Text.tsx"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "fileSystem"
+      },
+      "capsUseInputs": {
+        "sss_fileSystem-0": {
+          "capsIptCodeID": "sss_fileSystem-0",
+          "capsIptTxtValue": "./src/tools/base/Elements/Text.tsx"
+        },
+        "sss_fileSystem-1": {
+          "capsIptCodeID": "sss_fileSystem-1",
+          "capsIptCapsValue": ["46dea088-59f3-4d82-a00e-7bcbdcb5f392"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "46dea088-59f3-4d82-a00e-7bcbdcb5f392": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "46dea088-59f3-4d82-a00e-7bcbdcb5f392",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723752787822
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "0b1a0280-07f0-498d-a289-a6d222e3d886"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723752787822],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "code"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "// ---------- import Packs\nimport React from 'react';\nimport { Text as RNText } from 'react-native';\n\ntype Tprops = {\n  pass: { arrProps: any; arrStyles: any; children: any; args?: any };\n};\n\nexport const Text = (props: Tprops) => {\n  // ---------- set Capsules Inputs\n  const { arrProps, arrStyles, args } = props.pass;\n  let { children } = props.pass;\n\n  if (typeof children === 'object') {\n    const newMap = children.map((item, idx) => {\n      if (typeof item === 'function') {\n        console.log({ item });\n        const test = item(args);\n\n        return test;\n      }\n\n      return item;\n    });\n\n    children = newMap.reduce((prev, curr) => prev + curr, '');\n  }\n\n  // ------- set User Element Properties (If Exists)\n  const userElProps = {};\n\n  for (const object of arrProps) {\n    for (const keyProp in object) {\n      const valueProp = object[keyProp];\n      userElProps[keyProp] = valueProp;\n    }\n  }\n\n  const allProps = {\n    style: arrStyles,\n    children,\n\n    ...userElProps,\n  };\n\n  // ---------- set Render\n  return <RNText {...allProps} />;\n};"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "49a65981-b902-4cdd-a8c1-b9914ad11c32": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "49a65981-b902-4cdd-a8c1-b9914ad11c32",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723753119389
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723753119389],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "sss_text,"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_text\": {\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsLabel\": { \"pt-br\": \"Texto\", \"en\": \"Text\" },\n        \"capsDescription\": {\n          \"pt-br\": \"Um componente React para exibir texto.\",\n          \"en\": \"A React component for displaying text.\"\n        },\n        \"capsCodeTypes\": [\"Elemento de Tela\", \"Text Component\"],\n        \"capsCodeText\": \"(...args:any) => <Elements.Text pass={{\\n arrProps: [\\n !#!Elements Properties!#!\\n ],\\n \\n arrStyles: [\\n !#!Styles!#!\\n ],\\n \\n children: [\\n !#!Text Value!#!\\n ],\\n \\n args,\\n \\n }}/>\",\n        \"capsCodeInputs\": {\n          \"sss_text-0\": {\n            \"capsIptCodeID\": \"sss_text-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Propriedades de Elementos\",\n                \"en\": \"Elements Properties\"\n              },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsDfCode\": \"{}\",\n              \"capsIptCapsTypesToAdd\": [\"Propriedade Texto\"]\n            }\n          },\n          \"sss_text-1\": {\n            \"capsIptCodeID\": \"sss_text-1\",\n            \"capsIptPosition\": \"1\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": { \"pt-br\": \"Estilos\", \"en\": \"Styles\" },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsDfCode\": \"{ color: 'white', fontSize: 14, }\",\n              \"capsIptCapsTypesToAdd\": [\"Estilo Texto\"]\n            }\n          },\n          \"sss_text-2\": {\n            \"capsIptCodeID\": \"sss_text-2\",\n            \"capsIptPosition\": \"2\",\n            \"capsIptRemoved\": false,\n            \"capsIptType\": \"capsules\",\n            \"capsIptCapsInfo\": {\n              \"capsIptCapsLabel\": {\n                \"pt-br\": \"Valor de Texto\",\n                \"en\": \"Text Value\"\n              },\n              \"capsIptCapsDescription\": { \"pt-br\": \"\", \"en\": \"\" },\n              \"capsIptCapsDfCode\": \"\\\"Escreva...\\\"\",\n              \"capsIptCapsTypesToAdd\": [\"string process\", \"string values\"]\n            }\n          }\n        },\n        \"capsCodeVersionID\": \"1\",\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 }\n      }\n    },\n    \"capsType\": \"code\",\n    \"capsDB\": {\n      \"capsID\": \"sss_text\",\n      \"capsPrjID\": \"yyy1\",\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsUserID\": \"xxx1\"\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "65294b2e-6d3e-40e8-8de1-1a04394e49c4": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "65294b2e-6d3e-40e8-8de1-1a04394e49c4",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723753214721
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_screen-2",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "6675a657-ef9a-46ad-802d-6c784fc1129b"
+          }
+        }
+      },
+      "capsCodeID": "sss_text",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723753214721],
+      "capsUseLabel": {
+        "pt-br": "Text",
+        "en": "Text"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_text-0": {
+          "capsIptCodeID": "sss_text-0",
+          "capsIptCapsValue": []
+        },
+        "sss_text-1": {
+          "capsIptCodeID": "sss_text-1",
+          "capsIptCapsValue": []
+        },
+        "sss_text-2": {
+          "capsIptCodeID": "sss_text-2",
+          "capsIptCapsValue": ["a721fdb4-dec4-4465-873c-ceedb4819051"]
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "48c3cba5-3143-47e8-bc56-73ea7fad99a3": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "48c3cba5-3143-47e8-bc56-73ea7fad99a3",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723753812707
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_fileSystem-1",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "28e5ff5d-4c28-4f89-b82c-ff2146188db0"
+          }
+        }
+      },
+      "capsCodeID": "sss_freeValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723753812707],
+      "capsUseLabel": {
+        "pt-br": "free value",
+        "en": "sss_stringValue,"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": "free value"
+      },
+      "capsUseInputs": {
+        "sss_freeValue-0": {
+          "capsIptCodeID": "sss_freeValue-0",
+          "capsIptTxtValue": "  \"sss_stringValue\": {\n    \"capsDB\": {\n      \"capsUserID\": \"usrn5e3jr2CvvnDpHigA\",\n      \"capsID\": \"sss_stringValue\",\n      \"capsCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 },\n      \"capsPrjID\": \"ZOqi3kZm6c7XjObC79xk\"\n    },\n    \"capsType\": \"code\",\n    \"capsCodeInfo\": {\n      \"1\": {\n        \"capsLabel\": {\n          \"pt-br\": \"valor string\",\n          \"en\": \"string value\"\n        },\n        \"capsDescription\": {\n          \"pt-br\": \"\",\n          \"en\": \"\"\n        },\n        \"capsCodeTypes\": [\"string value\", \"jsValue\", \"string process\"],\n        \"capsCodeText\": \"\\\"!#!string value!#!\\\"\",\n\n        \"capsCodeVersionID\": \"1\",\n        \"capsCodeInputs\": {\n          \"sss_stringValue-0\": {\n            \"capsIptType\": \"text\",\n            \"capsIptRemoved\": false,\n            \"capsIptCodeID\": \"sss_stringValue-0\",\n            \"capsIptPosition\": \"0\",\n            \"capsIptTxtInfo\": {\n              \"capsIptTxtLabel\": {\n                \"pt-br\": \"valor string\",\n                \"en\": \"string value\"\n              },\n\n              \"capsIptTxtDescription\": {\n                \"pt-br\": \"\",\n                \"en\": \"\"\n              },\n              \"capsIptTxtDfValue\": \"\"\n            }\n          }\n        },\n        \"capsVersionCreatedAt\": { \"seconds\": 1, \"nanoseconds\": 7 }\n      }\n    }\n  },"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  },
+  "a721fdb4-dec4-4465-873c-ceedb4819051": {
+    "capsType": "useCode",
+    "capsDB": {
+      "capsID": "a721fdb4-dec4-4465-873c-ceedb4819051",
+      "capsPrjID": "ppp_01",
+      "capsUserID": "uuu_01",
+      "capsCreatedAt": 1723753925271
+    },
+    "capsUseCodeInfo": {
+      "parents": {
+        "conn_1": {
+          "connID": "conn_1",
+          "capsParentIptID": "sss_text-2",
+          "parentData": {
+            "parentConnID": "conn_1",
+            "capsParentID": "65294b2e-6d3e-40e8-8de1-1a04394e49c4"
+          }
+        }
+      },
+      "capsCodeID": "sss_stringValue",
+      "capsCodeVersionID": "1",
+      "capsUpdatedAt": [1723753925271],
+      "capsUseLabel": {
+        "pt-br": "string value",
+        "en": "string value"
+      },
+      "capsUseDescription": {
+        "pt-br": "",
+        "en": ""
+      },
+      "capsUseInputs": {
+        "sss_stringValue-0": {
+          "capsIptCodeID": "sss_stringValue-0",
+          "capsIptTxtValue": "Olá Morfos 1!!!"
+        }
+      },
+      "capsUseConections": "1"
+    }
+  }
+}
