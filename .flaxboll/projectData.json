@@ -1,1 +1,30 @@
-{"isMobile":false,"projectInfo":{"capsInitID":"xxx_dir1","capsProjectID":"xxx_dir1","groupsControl":{"ggg_1":{"capsGroupID":"ggg_1","capsGroupName":"Group 1","capsGroupPosition":1,"capsGroupChildren":{"ccc_1":{"gpID":"ggg_1","capsControlID":"ccc_1","capsID":"xxx_dir1","connID":"conn_1","capsPosition":1}}}},"repositoryURL":"https://github.com/Morfosweb/prj-bikes-1","repositoryName":"prj-bikes-1"},"projectDB":{"prjCreatedAt":{"seconds":1728566064,"nanoseconds":15000000},"projectID":"7HUPv8Dxx0rq5D1xziXU","userID":"l0bn9c5MFaXwxGn6cihp"}}
+{
+  "isMobile": false,
+  "projectInfo": {
+    "capsInitID": "xxx_dir1",
+    "capsProjectID": "xxx_dir1",
+    "groupsControl": {
+      "ggg_1": {
+        "capsGroupID": "ggg_1",
+        "capsGroupName": "Group 1",
+        "capsGroupPosition": 1,
+        "capsGroupChildren": {
+          "ccc_1": {
+            "gpID": "ggg_1",
+            "capsControlID": "ccc_1",
+            "capsID": "xxx_dir1",
+            "connID": "conn_1",
+            "capsPosition": 1
+          }
+        }
+      }
+    },
+    "repositoryURL": "https://github.com/Morfosweb/prj-bikes-1",
+    "repositoryName": "prj-bikes-1"
+  },
+  "projectDB": {
+    "prjCreatedAt": { "seconds": 1728566064, "nanoseconds": 15000000 },
+    "projectID": "7HUPv8Dxx0rq5D1xziXU",
+    "userID": "l0bn9c5MFaXwxGn6cihp"
+  }
+}
